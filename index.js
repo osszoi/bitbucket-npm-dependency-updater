@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { Command } = require('commander');
 const simpleGit = require('simple-git');
 const fs = require('fs');
