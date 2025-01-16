@@ -1,6 +1,6 @@
 {
   "name": "bitbucket-npm-dependency-updater",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A npm dependency updater across all bitbucket projects",
   "main": "index.js",
   "bin": {
