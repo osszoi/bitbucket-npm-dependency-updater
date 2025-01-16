@@ -1,0 +1,23 @@
+{
+  "name": "bitbucket-npm-dependency-updater",
+  "version": "0.0.1",
+  "description": "A npm dependency updater across all bitbucket projects",
+  "main": "index.js",
+  "bin": {
+    "bb-ndu": "index.js"
+  },
+  "scripts": {
+    "p": "npm version patch && npm publish"
+  },
+  "author": "Eduardo Lorenzo <ejlorenzo19@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bitbucket-repo-utils": "^0.0.16",
+    "commander": "^13.0.0",
+    "dotenv": "^16.4.7",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^12.3.0",
+    "jsonfile": "^6.1.0",
+    "simple-git": "^3.27.0"
+  }
+}
